@@ -100,7 +100,7 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
-
+      tasklist: true,
       // install chart.js before enabling it
       // chart: true,
 
@@ -130,7 +130,19 @@ export default hopeTheme({
       // katex: true,
 
       // install mathjax-full before enabling it
-      mathjax: true,
+      mathjax: {
+
+        tex: {
+          macros: {
+            // 定义 theorem 环境的开始部分
+            bt: ["\\textbf{Theorem: } "],
+            // 定义 theorem 环境的结束部分
+            et: [""]
+          },
+
+          tags: "ams",
+        }
+      },
 
       mark: true,
 
@@ -163,7 +175,7 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
-
+      footnote:true
       // install @vue/repl before enabling it
       // vuePlayground: true,
     },
