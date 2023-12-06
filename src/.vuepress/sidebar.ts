@@ -27,4 +27,12 @@ export default sidebar({
 
     }
   ],
+  "/computer/da":[
+    {
+      text: "数据结构与算法",
+      icon: "book",
+      children: ["array.md","string.md"]
+    }
+  ]
+
 });

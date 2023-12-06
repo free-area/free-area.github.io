@@ -24,8 +24,4 @@ headerDepth: 2
 
 
 
-
-
-
-
 [^1]: [[1806.07366\] Neural Ordinary Differential Equations (arxiv.org)](https://arxiv.org/abs/1806.07366)

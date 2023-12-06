@@ -50,4 +50,10 @@ export default navbar([
     prefix: "/dl/",
     children: ["basic.md",{text:"神经微分方程",link:"neural_de/"}],
   },
+  {
+    text: "计算机",
+    icon: "book",
+    prefix: "/computer/",
+    children: ["da/"],
+  },
 ]);

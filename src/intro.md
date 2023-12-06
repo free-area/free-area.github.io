@@ -1,8 +1,10 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
+sticky: 100000
 ---
 
-# 介绍页
+# 个人介绍
 
-将你的个人介绍和档案放置在此处。
+是最爱聪聪园的笨丁呢！
+ 
