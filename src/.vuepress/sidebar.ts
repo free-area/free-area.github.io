@@ -27,6 +27,13 @@ export default sidebar({
 
     }
   ],
+  "/dl/prob_g/":[
+    {
+      text:"概率图模型",
+      icon: "book",
+      children:["representations.md"]
+    }
+  ],
   "/computer/da":[
     {
       text: "数据结构与算法",

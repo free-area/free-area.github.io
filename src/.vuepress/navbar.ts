@@ -48,7 +48,14 @@ export default navbar([
     text: "深度学习",
     icon: "book",
     prefix: "/dl/",
-    children: ["basic.md",{text:"神经微分方程",link:"neural_de/"}],
+    link: "/dl/",
+    children: [
+      "math/",
+      "basic.md",
+     { text: "神经微分方程", link: "neural_de/" },
+     "prob_g/",
+     "robust/",
+    ],
   },
   {
     text: "计算机",
