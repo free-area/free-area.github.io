@@ -301,7 +301,6 @@ $$
 
 因此,无向图上定义的概率分布可以表示为
 $$
-
 \begin{equation}
 \label{boltz}
 \begin{aligned}
@@ -338,7 +337,9 @@ $$
 其中 $Z(\boldsymbol{x} ; \theta)=\sum_y \exp \left(\theta^{\top} f_{\boldsymbol{y}}(\boldsymbol{x}, y)\right)$.
 对数线性模型也称为条件最大熵模型或Softmax 回归模型.
 
-## 条件随机场
+### 条件随机场
+
+## 有向图和无向图直接的转换
 
 
 
