@@ -1,0 +1,1 @@
+import{_ as a}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as r,c as t,a as e,b as o}from"./app-jl3rBhQH.js";const c={},s=e("h1",{id:"重参数技巧",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#重参数技巧","aria-hidden":"true"},"#"),o(" 重参数技巧")],-1),n=[s];function _(d,i){return r(),t("div",null,n)}const m=a(c,[["render",_],["__file","reparam.html.vue"]]);export{m as default};
